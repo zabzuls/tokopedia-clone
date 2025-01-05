@@ -1,8 +1,8 @@
-import HeroSection from "../components/HeroSection";
+// import HeroSection from "../components/HeroSection";
 import CategorySection from "../components/CategorySection";
 import ProductCard from "../components/ProductCard";
 import Carousel from "../components/Carousel";
-import PromoBanner from "../components/PromoBanner";
+// import PromoBanner from "../components/PromoBanner";
 
 export default function HomePage() {
   const sampleProducts = [
@@ -16,11 +16,11 @@ export default function HomePage() {
     <div>
       <Carousel />
       <div className="container mx-auto p-4">
-        <PromoBanner
+        {/* <PromoBanner
           message="Diskon hingga 50% untuk kategori elektronik!"
           link="/promo/elektronik"
-        />
-        <HeroSection />
+        /> */}
+        {/* <HeroSection /> */}
         <CategorySection />
         <section className="my-8">
           <h2 className="text-2xl font-bold mb-4">Produk Terbaru</h2>
